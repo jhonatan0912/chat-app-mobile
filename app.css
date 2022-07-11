@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+:root{
+  --fontFamily: 'Rubik', sans-serif;
+  --Pale-Violet-sub-heading-at-the-top-of-the-app-UI: hsl(276, 100%, 81%);
+  --Moderate-Violet-chat-on-the-left: hsl(276, 55%, 52%);
+  --Desaturated-Dark-Violet-chat-on-the-right: hsl(271, 15%, 43%);
+  --Grayish-Blue-placeholder-text: hsl(206, 6%, 79%);
+  --Very-Dark-Desaturated-Violet-main-heading: hsl(271, 36%, 24%);
+  --Dark-Grayish-Violet-paragraph: hsl(270, 7%, 64%);
+  --Light-Magenta: rgb(233, 66, 255);
+  --Light-Violet: rgb(136, 56, 255);
+  --White: hsl(0, 0%, 100%);
+  --Light-Grayish-Violet-app-background: hsl(270, 20%, 96%);
+  --Very-Dark-Desaturated-Violet-submit-button-background: hsl(271, 36%, 24%);
+  --Very-Light-Magenta-radio-button-outline: hsl(289, 100%, 72%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: var(--fontFamily);
+}
+
+.background{
+  position: absolute;
+  width: 50%;
+  height: 55%;
+  background-color: blueviolet;
+  top: 0;
+  border-radius: 0 0 100% ;
+}
+
+.phone__container{
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0 0 3px 000;
+  padding: .5em;
+  position: relative;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.phone__header{
+  background: linear-gradient(90deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  border-radius: 25px 25px 10px 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.header__space-white{
+  position: absolute;
+  max-width: 50%;
+  height: 30px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+}
+
+.user__data{
+  display: flex;
+}
+
+.profile__img{
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-right: 10px;
+}
+
+.user__status{
+  font-size: .7em;
+  color: var(--Grayish-Blue-placeholder-text);
+}
+
+.phone__content{
+  background-color: var(--Light-Grayish-Violet-app-background);
+  padding: 1em;
+  border-radius: 0 0 20px 20px;
+}
+
+.chat__response{
+  width: 50%;
+  font-size: .7em;
+  color: var(--Moderate-Violet-chat-on-the-left);
+  margin: 10px ;
+  padding: 1em;
+  background-color: hsl(272, 41%, 93%);
+  border-radius: 10px 15px 15px 5px ;
+}
+
+.pictures__send{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 50px;
+}
+
+.dog__img{
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.chat__send{
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: .7em;
+  color: var(--Moderate-Violet-chat-on-the-left);
+  margin: 10px ;
+  padding: 1em ;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px 15px 15px 5px ;
+  width: fit-content;
+  float: right;
+}
+
+.chat__response-time-price{
+  width: 60%;
+  background-color: green;
+  margin: 10px;
+  background: linear-gradient(90deg, rgba(233,66,255,1) 0%, rgba(136,56,255,1) 100%);
+  color: #fff;
+  display: flex;
+  padding: 1em;
+  border-radius: 10px 15px 15px 5px ;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle{
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.price{
+  font-weight: 700;
+}
+
+.chat__input{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: .5em .5em .5em 2em;
+  justify-content: space-between;
+  border-radius: 30px;
+  color: var(--Grayish-Blue-placeholder-text);
+  font-size: .8em;
+}
+
+.right__arrow{
+  background-color: var(--Very-Dark-Desaturated-Violet-submit-button-background);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.title{
+  text-align: center;
+  font-size: 2.5em;
+  color: var(--Very-Dark-Desaturated-Violet-main-heading);
+}
+
+.paragraph{
+  text-align: center;
+  width: 70%;
+  margin: 20px auto;
+    color: var(--Dark-Grayish-Violet-paragraph);
+}
+
+.margin-chatsend{
+  margin-top: 110px;
+}
+
+
